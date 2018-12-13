@@ -3,7 +3,7 @@
 }
 
 .fr_pagination li:nth-child(1) a:after {
-    content: ".- Outreach";
+    content: "- Outreach";
 }
 
 .fr_pagination li:nth-child(2) span:after {
