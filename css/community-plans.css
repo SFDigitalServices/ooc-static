@@ -556,7 +556,7 @@ ul.fr_pagination {
     	width: 50.25%;
     }
 
-    .panel-col-top h2.pane-title {
+    .panel-col-top h1.pane-title {
     	font-size: 36px;
     	line-height: 1.35em;
     }
@@ -614,7 +614,7 @@ ul.fr_pagination {
     .panel-col-top .inside {
 	    width: 60.25%;
 	}
-    .panel-col-top h2.pane-title {
+    .panel-col-top h1.pane-title {
 	    font-size: 30px;
 	    line-height: 1.25em;
 	}
