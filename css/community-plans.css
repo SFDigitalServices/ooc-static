@@ -93,7 +93,7 @@ header#header {
 div#main {
     padding-top:0 !important;
 }
-.panel-col-top h2.pane-title {
+.panel-col-top h1.pane-title {
     font-size:48px;
     line-height:1.2em;
     padding:1em 0;
