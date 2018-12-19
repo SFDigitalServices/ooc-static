@@ -653,3 +653,20 @@ ul.fr_pagination {
     	width: 75.25%;
     }
 }
+
+/* ==========================================================================
+   Skip link section
+   ========================================================================== */
+#skip-link{
+    height: auto;
+    width: auto;
+}
+#skip-link a{
+    position: absolute !important;
+    width: 100%;
+    text-align: center;
+}
+#skip-link a:active, #skip-link a:focus{
+    display:block;
+    z-index: 9999;
+}
