@@ -1,49 +1,67 @@
 .fr_pagination li:nth-child(1) span:after {
-    content: " - Outreach";
+    content: " - Introduction";
 }
 
 .fr_pagination li:nth-child(1) a:after {
-    content: "- Outreach";
+    content: " - Introduction";
 }
 
+
 .fr_pagination li:nth-child(2) span:after {
-    content: " - Community liaison";
+    content: " - Outreach";
 }
 
 .fr_pagination li:nth-child(2) a:after {
-    content: "- Community liaison";
+    content: " - Outreach";
 }
 
 .fr_pagination li:nth-child(3) span:after {
-    content: " - Good Neighbor Policy";
+    content: " - Community liaison";
 }
 
 .fr_pagination li:nth-child(3) a:after {
-    content: "- Good Neighbor Policy";
+    content: "- Community liaison";
 }
 
 .fr_pagination li:nth-child(4) span:after {
-    content: " - Compassion program";
+    content: " - Good Neighbor Policy";
 }
 
 .fr_pagination li:nth-child(4) a:after {
-    content: "- Compassion program";
+    content: "- Good Neighbor Policy";
 }
 
 .fr_pagination li:nth-child(5) span:after {
-    content: " - Equity";
+    content: " - Compassion program";
 }
 
 .fr_pagination li:nth-child(5) a:after {
-    content: "- Equity";
+    content: "- Compassion program";
 }
 
 .fr_pagination li:nth-child(6) span:after {
-    content: " - Community benefits";
+    content: " - Equity";
 }
 
 .fr_pagination li:nth-child(6) a:after {
+    content: "- Equity";
+}
+
+.fr_pagination li:nth-child(7) span:after {
+    content: " - Community benefits";
+}
+
+.fr_pagination li:nth-child(7) a:after {
     content: "- Community benefits";
+}
+
+
+.fr_response_field_block_of_text em {
+  display: inline-block;
+  background-color: #FFEBDF;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-style: normal;
 }
 
 .fr_pagination li span:after, .fr_pagination li a:after {
@@ -375,6 +393,12 @@ input[type=checkbox]:checked {
     margin-bottom: 10px;
 }
 
+.fr_response_field_identification {
+  border: 1px solid #ccc;
+  padding: 5px 20px 15px;
+  margin-bottom: 50px!important;
+}
+
 a.js-add-row {
     background: #0085d0;
     color: #ffffff !important;
@@ -437,7 +461,7 @@ label.fr_button:hover, fr_bottom_r > button:hover, .fr_bottom_r > button.button-
     background:#444 !important;
 }
 .fr_bottom {
-	background: transparent !important;
+    background: transparent !important;
     padding: 50px 0 0 30% !important;
 }
 
@@ -449,7 +473,7 @@ label.fr_button:hover, fr_bottom_r > button:hover, .fr_bottom_r > button.button-
     margin-top:2em;
 }
 ul.fr_pagination {
-	background-color: white !important;
+    background-color: white !important;
     width: 27%;
     float: left;
 }
@@ -460,7 +484,7 @@ ul.fr_pagination {
     display: none !important;
 }
 .fr_pagination li a:hover, .fr_pagination li span {
-	background-color: white !important;
+    background-color: white !important;
     font-weight: normal;
 }
 .fr_pagination li a, .fr_pagination li span {
@@ -474,18 +498,20 @@ ul.fr_pagination {
 }
 .fr_pagination li {
     display: flex;
-	border-bottom: 1px solid #ccc;
-	padding: 35px 0;
-	margin: 0 10%;
+    border-bottom: 1px solid #ccc;
+    padding: 35px 0;
+    margin: 0 10%;
 }
 .fr_pagination li:last-child {
     border-bottom: none;
 }
+
 .fr_page {
     width: 50%;
     float: left;
     margin: 3% 0 0 3%;
 }
+
 .fr_bottom_l {
     line-height: 48px !important;
     font-size: 16px !important;
@@ -502,7 +528,7 @@ ul.fr_pagination {
 }
 
 .fr_bookmark {
-	font-size: 16px !important;
+    font-size: 16px !important;
     padding: 16px 0;
     margin: -52px 0 100px 30% !important;
     text-align: center;
@@ -534,75 +560,81 @@ ul.fr_pagination {
 }
 @media only screen and (max-width:950px) {
     .panel-3col-stacked .panel-col-first {
-	    float: left;
-	    width: 0%;
-	}
+        float: left;
+        width: 0%;
+    }
 
-	.panel-3col-stacked .panel-col {
-	    float: left;
-	    width: 90%;
-	    padding: 5%;
-	}
+    .panel-3col-stacked .panel-col {
+        float: left;
+        width: 90%;
+        padding: 5%;
+    }
 
-	.panel-3col-stacked .panel-col-last {
-	    float: left;
-	    width: 0%;
-	}
+    .panel-3col-stacked .panel-col-last {
+        float: left;
+        width: 0%;
+    }
     #hamburger-one {
-    	position: absolute !important;
+        position: absolute !important;
     }
 
     .panel-col-top .inside {
-    	width: 50.25%;
+        width: 50.25%;
     }
 
+<<<<<<< HEAD
+    .panel-col-top h2.pane-title {
+        font-size: 36px;
+        line-height: 1.35em;
+=======
     .panel-col-top h1.pane-title {
     	font-size: 36px;
     	line-height: 1.35em;
+>>>>>>> eaa7626b09c6313915e4751472249ab7d7415465
     }
 
     ul.fr_pagination {
-   	 	width: 100%;
-    	font-size: 16px;
-    	margin: 0 0 50px;
-	}
+        width: 100%;
+        font-size: 16px;
+        margin: 0 0 50px;
+    }
     .fr_pagination li {
-		padding: 15px 5%;
-		margin: 0;
-	}
+        padding: 15px 5%;
+        margin: 0;
+    }
 
-	.fr_page {
-		width: 100%;
-		margin: 0;
-	}
+    .fr_page {
+        width: 100%;
+        margin: 0;
+    }
 
-	#fr_response_field_jqrkooyz .fr_min_max,
-	#fr_response_field_jqrkooyz .fr_description,
-	.fr_form .fr_description, .fr_text.size_medium {
-	    font-size: 14px !important;
-    	line-height: 1.35;
-	}
+    #fr_response_field_jqrkooyz .fr_min_max,
+    #fr_response_field_jqrkooyz .fr_description,
+    .fr_form .fr_description, .fr_text.size_medium {
+        font-size: 14px !important;
+        line-height: 1.35;
+    }
 
-	.fr_button {
-	    line-height: 48px !important;
-	    font-size: 16px !important;
-	    padding:0 15px !important;
-	} 
+    .fr_button {
+        line-height: 48px !important;
+        font-size: 16px !important;
+        padding:0 15px !important;
+    } 
 
-	.fr_error_alert_bar {
-	    font-size: 16px;
-	    margin-left: 0;
-	    margin-top: 0;
-	}
-	.fr_bookmark {
-   		margin: -52px 0 100px 0 !important;
-	}
-	.fr_bottom {
-    	padding: 50px 0 0 20% !important;
-	}
-	.fr_bottom_l {
- 		padding-left: 45px;
-	}
+    .fr_error_alert_bar {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .fr_bookmark {
+        margin: -52px 0 100px 0 !important;
+    }
+    .fr_bottom {
+        padding: 50px 0 0 20% !important;
+    }
+    .fr_bottom_l {
+        padding-left: 45px;
+    }
 }
 @media only screen and (max-width:650px) {
     #header #site-name {
@@ -612,45 +644,54 @@ ul.fr_pagination {
         top:-10px;
     }
     .panel-col-top .inside {
+<<<<<<< HEAD
+        width: 60.25%;
+    }
+    .panel-col-top h2.pane-title {
+        font-size: 30px;
+        line-height: 1.25em;
+    }
+=======
 	    width: 60.25%;
 	}
     .panel-col-top h1.pane-title {
 	    font-size: 30px;
 	    line-height: 1.25em;
 	}
+>>>>>>> eaa7626b09c6313915e4751472249ab7d7415465
     .fr_page h2, .fr_form h3 {
-	    font-size: 24px;
-	    line-height: 1.25;
-	}
-	.fr_response_field_paragraph textarea.size_medium {
-    	width: 100% !important;
-	}
-	.fr_bottom {
-    	padding: 25px 0 0 0 !important;
-    	width: 100%;
-   		text-align: center !important;
-	}
-	.fr_bottom_l, .fr_bottom_r {
-    	display: block !important;
-	}
+        font-size: 24px;
+        line-height: 1.25;
+    }
+    .fr_response_field_paragraph textarea.size_medium {
+        width: 100% !important;
+    }
+    .fr_bottom {
+        padding: 25px 0 0 0 !important;
+        width: 100%;
+        text-align: center !important;
+    }
+    .fr_bottom_l, .fr_bottom_r {
+        display: block !important;
+    }
     .fr_bottom_l {
-	    text-align: center !important;
-	    margin: 15px 0 10px;
-	    padding-left: 0;
-	}
+        text-align: center !important;
+        margin: 15px 0 10px;
+        padding-left: 0;
+    }
     .fr_bottom_r > button {
-	    background: #ff6627 !important;
-	    width: 100% !important;
-	    margin-bottom: 15px;
-	}
-	.fr_bookmark {
-		width: 100%;
-		margin: 0 0 50px 0 !important;
-	}
+        background: #ff6627 !important;
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .fr_bookmark {
+        width: 100%;
+        margin: 0 0 50px 0 !important;
+    }
 }
 @media only screen and (max-width:480px) {
     .panel-col-top .inside {
-    	width: 75.25%;
+        width: 75.25%;
     }
 }
 
