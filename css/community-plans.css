@@ -56,6 +56,7 @@
 }
 
 
+
 .fr_response_field_block_of_text em {
   display: inline-block;
   background-color: #FFEBDF;
@@ -111,7 +112,7 @@ header#header {
 div#main {
     padding-top:0 !important;
 }
-.panel-col-top h1.pane-title {
+.panel-col-top h2.pane-title {
     font-size:48px;
     line-height:1.2em;
     padding:1em 0;
@@ -196,7 +197,7 @@ h4 {
 .fr_form .fr_response_field_radio,
 .fr_form .fr_response_field_checkboxes,
 .fr_form .fr_response_field_number {
-    margin: 0 !important;
+    margin: 0 0 40px 0!important;
 }
 
 #fr_response_field_q5kfpmlg,
@@ -309,7 +310,7 @@ hr {
     color: #fff;
     border: none;
 }
-input, select {
+input, select, textarea {
     width: 100%;
     padding: 12px 13px 10px 13px;
     font-size: 19px;
@@ -325,6 +326,11 @@ input, select {
 input[type=radio], input[type=checkbox] {
     width:auto;
 }
+
+.fr_response_field_paragraph textarea {
+    width:100%!important;
+}
+
 
 input[type=checkbox] {
     height: 20px !important;
@@ -351,9 +357,20 @@ input[type=checkbox]:checked {
     border: 1px solid #ddd;
 }
 
+.fr_fieldset .fr_field_wrapper .fr_option.fr_other_option {
+    padding-top:0;
+}
+
+.fr_other_option input[type=text] {
+    width:100%!important;
+}
 
 .fr_response_field_text input.size_medium, .fr_response_field_email input, .fr_response_field_phone input {
     width:95% !important;
+}
+
+.fr_response_field_section_break {
+    padding-top:1em;
 }
 
 .fr_response_field label,
@@ -361,6 +378,13 @@ input[type=checkbox]:checked {
     position:relative;
     top:0;
 }
+
+.fr_response_field label.control {
+    display:inline-block;
+    padding-left:1.5em!important;
+    text-indent:-2em;
+}
+
 .fr_grid .fr_spacer {
     margin-top:4em !important;
 }
@@ -465,9 +489,6 @@ label.fr_button:hover, fr_bottom_r > button:hover, .fr_bottom_r > button.button-
     padding: 50px 0 0 30% !important;
 }
 
-.fr_other_option {
-    padding:12px 13px 10px 0;
-}
 
 .fr_text.size_medium {
     margin-top:2em;
@@ -582,15 +603,9 @@ ul.fr_pagination {
         width: 50.25%;
     }
 
-<<<<<<< HEAD
     .panel-col-top h2.pane-title {
         font-size: 36px;
         line-height: 1.35em;
-=======
-    .panel-col-top h1.pane-title {
-    	font-size: 36px;
-    	line-height: 1.35em;
->>>>>>> eaa7626b09c6313915e4751472249ab7d7415465
     }
 
     ul.fr_pagination {
@@ -644,21 +659,12 @@ ul.fr_pagination {
         top:-10px;
     }
     .panel-col-top .inside {
-<<<<<<< HEAD
         width: 60.25%;
     }
     .panel-col-top h2.pane-title {
         font-size: 30px;
         line-height: 1.25em;
     }
-=======
-	    width: 60.25%;
-	}
-    .panel-col-top h1.pane-title {
-	    font-size: 30px;
-	    line-height: 1.25em;
-	}
->>>>>>> eaa7626b09c6313915e4751472249ab7d7415465
     .fr_page h2, .fr_form h3 {
         font-size: 24px;
         line-height: 1.25;
@@ -693,21 +699,4 @@ ul.fr_pagination {
     .panel-col-top .inside {
         width: 75.25%;
     }
-}
-
-/* ==========================================================================
-   Skip link section
-   ========================================================================== */
-#skip-link{
-    height: auto;
-    width: auto;
-}
-#skip-link a{
-    position: absolute !important;
-    width: 100%;
-    text-align: center;
-}
-#skip-link a:active, #skip-link a:focus{
-    display:block;
-    z-index: 9999;
 }
