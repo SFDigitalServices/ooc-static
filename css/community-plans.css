@@ -147,7 +147,7 @@ article .article-inner .article-inner-two .field-name-field-heading > div {
     font-family: Helvetica, Helvetica, Arial, sans-serif;
     font-size: 18px !important;
     font-weight: 200;
-    line-height: 1.5;
+    line-height: 1.7;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -381,7 +381,7 @@ input[type=checkbox]:checked {
 
 .fr_response_field label.control {
     display:inline-block;
-    padding-left:1.5em!important;
+    padding-left:2em!important;
     text-indent:-2em;
 }
 
@@ -409,7 +409,7 @@ input[type=checkbox]:checked {
     margin: 35px 0 15px !important;
 }
 
-.fr_table {
+.fr_table, .fr_response_field_file {
     margin-bottom: 30px;
 }
 
