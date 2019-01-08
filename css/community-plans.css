@@ -258,6 +258,10 @@ select#c8_state, select#c8_country {
     margin-top: 0;
 }
 
+.has_sub_label label.fr_sub_label {
+    font-weight:300;
+}
+
 .fr_response_field label {
     width: 100%;
     padding: 1.2em 0 10px;
