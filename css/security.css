@@ -79,11 +79,11 @@
 }
 
 .fr_pagination li:nth-child(11) span:after {
-    content: " - Personnel";
+    content: " - Security personnel";
 }
 
 .fr_pagination li:nth-child(11) a:after {
-    content: "- Personnel";
+    content: "- Security personnel";
 }
 
 .fr_pagination li:nth-child(12) span:after {
