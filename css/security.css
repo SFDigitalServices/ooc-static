@@ -541,6 +541,7 @@ label.fr_button:hover, fr_bottom_r > button:hover, .fr_bottom_r > button.button-
 .fr_bottom {
     background: transparent !important;
     padding: 50px 0 0 30% !important;
+    width:auto;
 }
 
 
@@ -592,8 +593,9 @@ ul.fr_pagination {
     font-size: 16px !important;
     font-family: inherit;
     font-weight: lighter !important;
-    margin-left: 100px;
-    padding-left: 165px;
+    /*margin-left: 100px;
+    padding-left: 165px;*/
+    padding-right:210px;
 }
 .fr_error_alert_bar {
     padding: 20px !important;
