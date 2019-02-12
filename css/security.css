@@ -595,7 +595,7 @@ ul.fr_pagination {
     font-weight: lighter !important;
     /*margin-left: 100px;
     padding-left: 165px;*/
-    padding-right:210px;
+    padding-right:10%;
 }
 .fr_error_alert_bar {
     padding: 20px !important;
