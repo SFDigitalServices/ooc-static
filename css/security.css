@@ -1,104 +1,96 @@
 .fr_pagination li:nth-child(1) span:after {
-    content: " - Introduction";
-}
-
-.fr_pagination li:nth-child(1) a:after {
-    content: "- Introduction";
-}
-
-.fr_pagination li:nth-child(2) span:after {
     content: " - Operators";
 }
 
-.fr_pagination li:nth-child(2) a:after {
+.fr_pagination li:nth-child(1) a:after {
     content: "- Operators";
 }
 
-.fr_pagination li:nth-child(3) span:after {
+.fr_pagination li:nth-child(2) span:after {
     content: " - Staff";
 }
 
-.fr_pagination li:nth-child(3) a:after {
+.fr_pagination li:nth-child(2) a:after {
     content: "- Staff";
 }
 
-.fr_pagination li:nth-child(4) span:after {
+.fr_pagination li:nth-child(3) span:after {
     content: " - Employee badges";
 }
 
-.fr_pagination li:nth-child(4) a:after {
+.fr_pagination li:nth-child(3) a:after {
     content: "- Employee badges";
 }
 
-.fr_pagination li:nth-child(5) span:after {
+.fr_pagination li:nth-child(4) span:after {
     content: " - Access";
 }
 
-.fr_pagination li:nth-child(5) a:after {
+.fr_pagination li:nth-child(4) a:after {
     content: "- Access";
 }
 
-.fr_pagination li:nth-child(6) span:after {
+.fr_pagination li:nth-child(5) span:after {
     content: " - Reporting theft";
 }
 
-.fr_pagination li:nth-child(6) a:after {
+.fr_pagination li:nth-child(5) a:after {
     content: "- Reporting theft";
 }
 
-.fr_pagination li:nth-child(7) span:after {
+.fr_pagination li:nth-child(6) span:after {
     content: " - Alarm provider";
 }
 
-.fr_pagination li:nth-child(7) a:after {
+.fr_pagination li:nth-child(6) a:after {
     content: "- Alarm provider";
 }
 
-.fr_pagination li:nth-child(8) span:after {
+.fr_pagination li:nth-child(7) span:after {
     content: " - Alarm features";
 }
 
-.fr_pagination li:nth-child(8) a:after {
+.fr_pagination li:nth-child(7) a:after {
     content: "- Alarm features";
 }
 
-.fr_pagination li:nth-child(9) span:after {
+.fr_pagination li:nth-child(8) span:after {
     content: " - Doors and locks";
 }
 
-.fr_pagination li:nth-child(9) a:after {
+.fr_pagination li:nth-child(8) a:after {
     content: "- Doors and locks";
 }
 
-.fr_pagination li:nth-child(10) span:after {
+.fr_pagination li:nth-child(9) span:after {
     content: " - Video surveillance";
 }
 
-.fr_pagination li:nth-child(10) a:after {
+.fr_pagination li:nth-child(9) a:after {
     content: "- Video surveillance";
 }
 
-.fr_pagination li:nth-child(11) span:after {
+.fr_pagination li:nth-child(10) span:after {
     content: " - Security personnel";
 }
 
-.fr_pagination li:nth-child(11) a:after {
+.fr_pagination li:nth-child(10) a:after {
     content: "- Security personnel";
 }
 
-.fr_pagination li:nth-child(12) span:after {
+.fr_pagination li:nth-child(11) span:after {
     content: " - Premises diagram";
 }
 
-.fr_pagination li:nth-child(12) a:after {
+.fr_pagination li:nth-child(11) a:after {
     content: "- Premises diagram";
 }
 
-.fr_pagination li:nth-child(13) span:after {
+.fr_pagination li:nth-child(12) span:after {
     content: " - Submission";
 }
 
-.fr_pagination li:nth-child(13) a:after {
+.fr_pagination li:nth-child(12) a:after {
     content: "- Submission";
 }
 
