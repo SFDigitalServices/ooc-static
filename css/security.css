@@ -71,26 +71,34 @@
 }
 
 .fr_pagination li:nth-child(10) span:after {
-    content: " - Security personnel";
+    content: " - Transport vehicles";
 }
 
 .fr_pagination li:nth-child(10) a:after {
-    content: "- Security personnel";
+    content: "- Transport vehicles";
 }
 
 .fr_pagination li:nth-child(11) span:after {
-    content: " - Premises diagram";
+    content: " - Security personnel";
 }
 
 .fr_pagination li:nth-child(11) a:after {
-    content: "- Premises diagram";
+    content: "- Security personnel";
 }
 
 .fr_pagination li:nth-child(12) span:after {
-    content: " - Submission";
+    content: " - Premises diagram";
 }
 
 .fr_pagination li:nth-child(12) a:after {
+    content: "- Premises diagram";
+}
+
+.fr_pagination li:nth-child(13) span:after {
+    content: " - Submission";
+}
+
+.fr_pagination li:nth-child(13) a:after {
     content: "- Submission";
 }
 
