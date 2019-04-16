@@ -541,7 +541,7 @@ label.fr_button:hover, fr_bottom_r > button:hover, .fr_bottom_r > button.button-
 .fr_bottom {
     background: transparent !important;
     padding: 50px 0 0 30% !important;
-    width:auto;
+    width:85%;
 }
 
 
@@ -586,6 +586,10 @@ ul.fr_pagination {
     width: 50%;
     float: left;
     margin: 3% 0 0 3%;
+}
+
+.fr_bottom_l, .fr_bottom_r {
+    display:block;
 }
 
 .fr_bottom_l {
